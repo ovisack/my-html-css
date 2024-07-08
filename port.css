@@ -9,6 +9,9 @@
   }
 
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
       color:#FD6E0A;
 }
@@ -26,11 +29,24 @@
     border-radius: 5px;
 }
 
+.section title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.tex-center{
+    text-align: center;
+}
 /* header */
 .header{
-    background-image:url(../sayle/images/developer.png),url(../sayle/images/header_bg.png) ;
+    background-image:url(../my-html-css/images/developer.png),url(../my-html-css/images/header_bg.png) ;
     background-repeat: no-repeat;
-    background-position: top left,bottom left;
+    background-position: top left,bottom right;
 }
 /* nav styles */
 nav{
@@ -66,7 +82,7 @@ nav li a{
 }
 .banner-greetings{
     font-size: 40px;
-font-weight:00 ;
+font-weight:600 ;
 }
 
 .banner title{
@@ -75,4 +91,71 @@ font-weight:00 ;
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.margin section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+/* skills cection style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black;
+}
+/* resume section styles */
+.resume container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+.experience-description, .experience-sub-title{
+    color:#757575;
+}
+.resume hr{
+    margin: 30px;
+}
+.resume-Download Cv{
+    border: #FD6E0A;  
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+width: 50%;
+}
+footer input[type="text"] footer input[type=email]{
+    height:64px ;
+    border-radius:5px ;
+    background-color: wheat;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
 }
